@@ -35,7 +35,7 @@ PaymentGatewaySystem/
 │ ├── models/
 │ ├── routes/
 │ ├── server.js
-│ ├── .env.example
+│ ├── .env
 │ └── package.json
 │
 ├── frontend/
@@ -44,28 +44,3 @@ PaymentGatewaySystem/
 │ ├── script.js
 │
 └── README.md
-
----
-
-## 🔧 How to Run the Project
-
-### Backend Setup
-
-1. Go to the backend folder:
-   ```bash
-   cd backend
-2. Install dependencies:
-npm install
-
-3.Create your own .env file using the example provided:
-cp .env.example .env
-
-4.Fill in your .env with required keys:
-MONGO_URI=your_mongo_connection_string
-PAYPAL_CLIENT_ID=your_paypal_client_id
-PAYPAL_CLIENT_SECRET=your_paypal_client_secret
-JWT_SECRET=your_jwt_secret_key
-
-5.Start the backend:
-node server.js
-
